@@ -9,6 +9,9 @@ buildscript {
         classpath 'net.ltgt.gradle:gradle-errorprone-plugin:0.8.1'
         classpath "me.champeau.gradle:jmh-gradle-plugin:0.4.5"
         classpath 'me.champeau.gradle:japicmp-gradle-plugin:0.2.5'
+	implementation 'io.grpc:grpc-netty-shaded:1.23.0'
+	implementation 'io.grpc:grpc-protobuf:1.23.0'
+	implementation 'io.grpc:grpc-stub:1.23.0'
     }
 }
 
